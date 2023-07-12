@@ -34,7 +34,7 @@ const TopBar = () => {
           size={30}
           className="text-[var(--primary-dark)] mr-2"
         />
-        <h1 className="text-xl font-bold text-gray-700">WEEKAWAY</h1>
+        <h1 className="text-xl font-bold text-gray-700">RIZKY TRAVEL</h1>
       </div>
       <div className="flex">
         <div className="hidden md:flex items-center px-6">
@@ -51,7 +51,7 @@ const TopBar = () => {
           />
           <p className="text-sm text-gray-700">081239968469</p>
         </div>
-        <button>Get a Free Quote</button>
+        <button className="rounded">Get a Free Quote</button>
       </div>
     </div>
   );

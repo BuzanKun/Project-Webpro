@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { BsChatSquareDots } from "react-icons/bs";
+import React, { useState } from "react";
+
 import {
 	FaFacebookF,
 	FaTwitter,
@@ -7,6 +7,7 @@ import {
 	FaInstagram,
     FaBars
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 const [nav,setNav] = useState(false)
@@ -17,17 +18,17 @@ const handleNav = () => {
 	return (
 		<div className="w-full min-h-[50px] flex justify-between items-center text-white absolute z-10 bg-gray-700/80">
 			<ul className="hidden sm:flex px-4">
-				<li className="px-5">
-					<a href="/">Home</a>
+				<li className="px-5 hover:bg-blue-300 rounded">
+					<Link to="/">Home</Link>
 				</li>
-				<li className="px-5">
-					<a href="#gallery">Gallery</a>
+				<li className="px-5 hover:bg-blue-300 rounded">
+					<Link to="/Gallery">Gallery</Link>
 				</li>
-				<li className="px-5">
-					<a href="#deals">Deals</a>
+				<li className="px-5 hover:bg-blue-300 rounded">
+					<Link to="/Booking">Booking</Link>
 				</li>
-				<li className="px-5">
-					<a href="#contact">Contact</a>
+				<li className="px-5 hover:bg-blue-300 rounded">
+					<Link to="/About">About Us</Link>
 				</li>
 			</ul>
             <div className="flex justify-between">
@@ -44,16 +45,16 @@ const handleNav = () => {
             <div onClick={handleNav} className={ nav ? "overflow-y-hidden md-hidden ease-in duration-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex flex-col" : "absolute top-0 h-screen left-[-100%] ease-in duration-500 "}>
             <ul className="h-full w-full text-center pt-12">
 				<li className="text-2xl py-8">
-					<a href="/">Home</a>
+					<Link to="/">Home</Link>
 				</li>
 				<li className="text-2xl py-8">
-					<a href="#gallery">Gallery</a>
+					<Link to="/Gallery">Gallery</Link>
 				</li>
 				<li className="text-2xl py-8">
-					<a href="#deals">Deals</a>
+					<Link to="/Booking">Deals</Link>
 				</li>
 				<li className="text-2xl py-8">
-					<a href="#contact">Contact</a>
+					<Link to="/About">About Us</Link	>
 				</li>
 			</ul>
             </div>
