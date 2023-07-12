@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AiFillPhone, AiOutlineClockCircle } from "react-icons/ai";
-import { BsChatSquareDots } from "react-icons/bs";
+import { BiSolidPlaneAlt } from "react-icons/bi";
 
 const TopBar = () => {
   const [currentTime, setCurrentTime] = useState("");
@@ -30,7 +30,7 @@ const TopBar = () => {
   return (
     <div className="flex justify-between items-center px-4 py-2">
       <div className="flex items-center">
-        <BsChatSquareDots
+        <BiSolidPlaneAlt
           size={30}
           className="text-[var(--primary-dark)] mr-2"
         />
