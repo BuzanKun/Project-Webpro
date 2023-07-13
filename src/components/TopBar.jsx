@@ -51,7 +51,6 @@ const TopBar = () => {
           />
           <p className="text-sm text-gray-700">+62 812-3996-8469</p>
         </div>
-        <button className="rounded">Get a Free Quote</button>
       </div>
     </div>
   );
