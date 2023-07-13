@@ -1,20 +1,25 @@
 import React from "react";
+import Gambar from '../Destinasi.json';
 
 const Activities = () => {
     return (
-        <div className="max-w-[1148px] m-auto w-full md:flex mt-[-75px]">
-            <div className="relative p-4">
-                <h3 className="absolute z-10 top-[50%] translate-x-[50%] translate-y-[50%] text-white text-2xl font-bold ">Resort</h3>
-                <img className="w-full h-full object-cover relative border-4 border-white shadow-lg rounded-sm" src="https://www.indonesia.travel/content/dam/indtravelrevamp/id-id/ide-liburan/yuk-cari-tahu-tentang-pantai-dengan-pasir-terhalus-di-asia-yang-terletak-di-maluku-tenggara/pantai.jpg" alt="" />
-            </div>
-            <div className="relative p-4">
-                <h3 className="absolute z-10 top-[50%] translate-x-[50%] translate-y-[50%] text-white text-2xl font-bold ">Resort</h3>
-                <img className="w-full h-full object-cover relative border-4 border-white shadow-lg rounded-sm" src="https://www.indonesia.travel/content/dam/indtravelrevamp/id-id/ide-liburan/yuk-cari-tahu-tentang-pantai-dengan-pasir-terhalus-di-asia-yang-terletak-di-maluku-tenggara/pantai.jpg" alt="" />
-            </div>
-            <div className="relative p-4">
-                <h3 className="absolute z-10 top-[50%] translate-x-[50%] translate-y-[50%] text-white text-2xl font-bold ">Resort</h3>
-                <img className="w-full h-full object-cover relative border-4 border-white shadow-lg rounded-sm" src="https://www.indonesia.travel/content/dam/indtravelrevamp/id-id/ide-liburan/yuk-cari-tahu-tentang-pantai-dengan-pasir-terhalus-di-asia-yang-terletak-di-maluku-tenggara/pantai.jpg" alt="" />
-            </div>
+        <div className="max-w-6xl m-auto w-full md:flex mt-[-100px]">
+            {Gambar.slice(0, 3).map((Destinasi, index) => (
+                <div className="relative p-4 flex-1" key={index}>
+                    <div className='relative'>
+                        <h3 className="absolute bottom-0 left-0 p-4 text-white text-2xl font-bold">
+                        {Destinasi.nama}
+                        </h3>
+                        <div className='aspect-[3/2]'>
+                        <img
+                            className="w-full h-full object-cover border-4 border-white shadow-lg rounded-sm"
+                            src={Destinasi.gambar}
+                            alt=""  
+                        />
+                        </div>
+                    </div>
+                </div>
+            ))}
         </div>
     );
 };

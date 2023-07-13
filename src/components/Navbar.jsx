@@ -51,7 +51,7 @@ const handleNav = () => {
 					<Link to="/Gallery">Gallery</Link>
 				</li>
 				<li className="text-2xl py-8">
-					<Link to="/Booking">Deals</Link>
+					<Link to="/Booking">Booking</Link>
 				</li>
 				<li className="text-2xl py-8">
 					<Link to="/About">About Us</Link	>

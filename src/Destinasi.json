@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nama": "Pulau Ayer Resort",
+    "gambar": "https://aw-d.tripcdn.com/images/220h0t000000it5ogE1F0_Z_960_660_R5_D.jpg_.webp",
+    "gallery" : [
+      "https://aw-d.tripcdn.com/images/220h0t000000it5ogE1F0_Z_960_660_R5_D.jpg_.webp",
+      "https://aw-d.tripcdn.com/images/0220x120009c3se5v6621_Z_960_660_R5_D.jpg_.webp",
+      "https://aw-d.tripcdn.com/images/0223m120008gofbvvAC43_Z_960_660_R5_D.jpg_.webp",
+      "https://aw-d.tripcdn.com/images/0226f120009wke3yh7AE9_Z_960_660_R5_D.jpg_.webp",
+      "https://aw-d.tripcdn.com/images/22030t000000itbc9355A_Z_960_660_R5_D.jpg_.webp"
+    ] 
+  },
+  {
+    "id": 2,
+    "nama": "Bali Dynasty Resort",
+    "gambar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/01/fa/30/bali-dynasty-resort-hotel.jpg?w=1200&h=-1&s=1",
+    "gallery" : [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/da/d8/78/bali-dynasty-resort-hotel.jpg?w=1200&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/01/f9/5b/bali-dynasty-resort-hotel.jpg?w=1200&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/f6/f5/92/couple-sitting-next-the.jpg?w=1200&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/da/d8/ee/family-lagoon-pool.jpg?w=1200&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/da/d8/ce/family-lagoon-pool-access.jpg?w=1200&h=-1&s=1"
+    ]
+  },
+  {
+    "id": 3,
+    "nama": "Meridian Adventure Marina Club & Resort Waisai",
+    "gambar": "https://upload.wikimedia.org/wikipedia/commons/8/88/Raja_Ampat%2C_Mutiara_Indah_di_Timur_Indonesia.jpg",
+    "gallery" : [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/38/b8/8c/meridian-adventure-marina.jpg?w=1200&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/4e/2c/d1/meridian-adventure-marina.jpg?w=1200&h=-1&s=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/215316938.jpg?k=930dc356d721f0b457ed9b281a5dc2d8e8bb205e1e98fe672226fe198038354b&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/215316842.jpg?k=c28ff9ae2b4fb69776d5a0e567ec60f22e77a3593c858c9b4eb11b5bd05a4ece&o=&hp=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/42/d5/dc/meridian-adventure-marina.jpg?w=1200&h=-1&s=1"
+    ] 
+  }
+]
