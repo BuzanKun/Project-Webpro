@@ -1,30 +1,28 @@
 import React, { useState } from 'react'
 
 const Booking = () => {
-  const [destination, setDestination] = useState('');
+  const [Destination, setDestination] = useState('');
   const [checkIn, setCheckIn] = useState('');
   const [checkOut, setCheckOut] = useState('');
 
   return (
     <div className=''>
       <div className="w-full h-96 bg-blue-300">
-      </div>
-      <div className='m-auto items-center'>
-          <div className='absolute top-[20%] w-full md:-[50%] h-full flex flex-col text-white p-4 items-center'>
-            <h1 className="font-bold text-4xl">Plan Your Travel Righ Now!</h1>
-            <p className="text-xl py-4 italic">We will book your plan immediately</p>
-          </div>
+        <div className='h-full flex flex-col text-white p-4 items-center justify-center'>
+          <h1 className="font-bold text-4xl">Plan Your Travel Righ Now!</h1>
+          <p className="text-xl py-4 italic">We will book your plan immediately</p>
+        </div>
       </div>
       <div className="max-w-6xl w-full md:flex mt-[-75px] m-auto align-middle p-2">
         <div className='max-w-6xl m-auto w-full p-4 bg-white rounded-md shadow-lg'>
           <form className='lg:flex lg:justify-between w-full items-center'>
             <div className='flex flex-col my-2 py-2'>
               <label className='font-bold pb-1'>Destination</label>
-              <select className='lg:w-[500px] md:w-full border rounded-md p-2' onChange={(e) => setDestination(e.target.value)} defaultValue='Pilih Destinasi'>
+              <select className='lg:w-[500px] md:w-full border rounded-md p-2' onChange={(e) => setDestination(e.target.value)}     >
                 <option hidden>Pilihan Destinasi</option>
-                <option>Jakarta</option>
-                <option>Jogjakarta</option>
-                <option>Bali</option>
+                <option>Pulau Ayer Resort</option>
+                <option>Bali Dynasty Resort</option>
+                <option>Meridian Adventure Marina Club & Resort Waisai</option>
               </select>
             </div>
             <div className='lg:flex w-full  '>
@@ -46,7 +44,7 @@ const Booking = () => {
       </div>
       <div className='max-w-6xl m-auto w-full px-4 py-8 md:grid md:grid-cols-2 gap-4'>
           <div className='md:col-span-1 bg-white rounded-md shadow-md mb-4'>
-            <h1 className='font-bold px-4 py-2 text-xl text-black'>{destination ? destination : 'Chosen Destination'}</h1>
+            <h1 className='font-bold px-4 py-2 text-xl text-black'>{Destination ? Destination : 'Chosen Destination'}</h1>
             <hr />
             <p className='p-2 text-gray-700'>
               Check-In: <span className='text-black font-semibold'>{checkIn ? checkIn : '-'}</span>
@@ -59,7 +57,7 @@ const Booking = () => {
           </div> 
           <div className='md:col-span-1 rounded-md bg-white shadow-md mb-4'>
             <form>
-              <h2 className='text-gray-700 ml-2 pl-2 pt-2'>Data Pemesan</h2>
+              <h2 className='text-gray-700 ml-2 pl-2 pt-2'>Customer Data</h2>
               <div className='lg:grid lg:grid-cols-2'>
                 <input className='border m-2 p-2 rounded-md' type='text' placeholder='First Name' />
                 <input className='border m-2 p-2 rounded-md' type='text' placeholder='Last Name' />
