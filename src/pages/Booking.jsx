@@ -23,7 +23,7 @@ const Booking = () => {
                 <option>Pulau Ayer Resort</option>
                 <option>Bali Dynasty Resort</option>
                 <option>Meridian Adventure Marina Club & Resort Waisai</option>
-              </select>
+              </select> 
             </div>
             <div className='lg:flex w-full  '>
               <div className='flex flex-col w-full my-2 p-2 lg:w-1/2'>

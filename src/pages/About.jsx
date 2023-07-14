@@ -7,18 +7,19 @@ const About = () => {
 	return (
 		<div className="">
 			<div className="w-full h-[60vh] bg-blue-300"></div>
-			<div className="flex justify-center">
-				<div className="absolute top-[17.5%] flex flex-col text-white p-4 items-center ">
-					<h1 className="font-bold text-4xl">About Us</h1>
+				<div className='absolute top-[20%] w-full md:-[50%] h-full flex flex-col text-white p-4 items-center'>
+						<h1 className="font-bold text-4xl">Welcome to Our Gallery</h1>
+						<p className="text-xl py-4 italic">Know Us!</p>
 				</div>
-				<div className="flex flex-col w-full h-full bg-white md:mt-[-230px] m-4 py-2 px-4 rounded-lg shadow-md">
+			<div className="flex justify-center">
+				<div className="flex flex-col w-full h-full bg-white md:mt-[-150px] m-4 py-2 px-4 rounded-lg shadow-md">
 					<p className="text-xl py-4 m-8 italic text-center ">
 						<h2 className="text-blue-500 text-center">
 							SELAMAT DATANG DI RIZKY TRAVEL!
 						</h2>
 						<br />
 						Rizky Travel adalah perusahaan yang berdedikasi untuk menyediakan
-						pengalaman liburan yang tak terlupakan bagi pelanggan kami. Kami
+						pengalaman liburan yang tak terlupakan bagi pelanggan kami.<br/>Kami
 						adalah mitra perjalanan pilihan yang menawarkan berbagai pilihan
 						resort eksklusif di destinasi yang menarik di Indonesia. Kami
 						memahami bahwa setiap perjalanan adalah pengalaman pribadi yang
